@@ -1,76 +1,176 @@
 <!DOCTYPE html>
+<html lang="id">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="icon" href="../../../../favicon.ico">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Reza Lesmana</title>
+    <!-- Load Tailwind CSS dari CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Konfigurasi Tailwind untuk menggunakan font Inter -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+<body class="min-h-screen bg-gray-100 font-inter p-4 sm:p-6 lg:p-8">
+    <div class="max-w-4xl mx-auto bg-white shadow-lg rounded-lg p-6 sm:p-8">
+        <!-- Header Section -->
+        <header class="flex flex-col sm:flex-row items-center justify-center sm:justify-between border-b pb-4 mb-6">
+            <div class="flex flex-col items-center sm:items-start text-center sm:text-left mb-4 sm:mb-0">
+                <h1 class="text-4xl font-bold text-gray-800">REZA LESMANA</h1>
+                <p class="text-xl text-indigo-600 mt-2">Web Developer / Fullstack / Backend</p>
+                <div class="text-gray-600 mt-2 text-sm">
+                    <p>rzalvaero@gmail.com</p>
+                    <p>+6281280462650</p>
+                </div>
+            </div>
+            <img
+                src="https://placehold.co/150x150/e0e0e0/ffffff?text=REZA"
+                alt="Foto Profil Reza Lesmana"
+                class="w-36 h-36 rounded-full object-cover border-4 border-indigo-500"
+                onerror="this.onerror=null; this.src='https://placehold.co/150x150/e0e0e0/ffffff?text=Image+Not+Found';"
+            />
+        </header>
 
-    <title>Narrow Jumbotron Template for Bootstrap</title>
+        <!-- Summary Section -->
+        <section class="mb-8">
+            <h2 class="text-2xl font-semibold text-gray-700 mb-3 border-b pb-2">Summary</h2>
+            <p class="text-gray-700 leading-relaxed">
+                I have over 5 years of experience in software development, with my recent projects heavily focused on intranet applications.
+                I primarily work as a backend developer but am always willing to tackle simpler frontend tasks when needed.
+                Beyond development, I also possess knowledge in SEO (Search Engine Optimization), specifically in building healthy backlinks to improve website rankings.
+            </p>
+        </section>
 
-    <!-- Bootstrap core CSS -->
-    <link href="../../css/editor.css" rel="stylesheet">
+        <!-- Personal Details Section -->
+        <section class="mb-8 grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div>
+                <h2 class="text-2xl font-semibold text-gray-700 mb-3 border-b pb-2">Personal Details</h2>
+                <ul class="text-gray-700 space-y-2">
+                    <li><span class="font-medium">Date & Place of birth:</span> Jakarta, 26 May 1997</li>
+                    <li><span class="font-medium">Citizenship:</span> Indonesian</li>
+                    <li><span class="font-medium">Languages:</span> Indonesian: Good Knowledge, English: Fluent</li>
+                    <li><span class="font-medium">Professional focus:</span> Backend software development, web applications</li>
+                    <li><span class="font-medium">Industries:</span> IT-Consultancy Services, IT Development</li>
+                    <li><span class="font-medium">Availability:</span> Full-time, long-term</li>
+                </ul>
+            </div>
+            <!-- Education Section -->
+            <div>
+                <h2 class="text-2xl font-semibold text-gray-700 mb-3 border-b pb-2">Education</h2>
+                <ul class="text-gray-700 space-y-4">
+                    <li>
+                        <h3 class="font-semibold text-lg">2015-2018</h3>
+                        <p class="text-indigo-600">Politeknik LP3i Pondok Gede</p>
+                        <p>Management Informatika</p>
+                    </li>
+                    <li>
+                        <h3 class="font-semibold text-lg">2012-2015</h3>
+                        <p class="text-indigo-600">SMK Prestasi Prima</p>
+                        <p>Multimedia</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
 
-    <!-- Custom styles for this template -->
-    <link href="narrow-jumbotron.css" rel="stylesheet">
-  </head>
+        <!-- Competences Section -->
+        <section class="mb-8">
+            <h2 class="text-2xl font-semibold text-gray-700 mb-3 border-b pb-2">Competences</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 text-gray-700">
+                <div>
+                    <h3 class="font-semibold text-lg mb-1">Operating systems:</h3>
+                    <p>Windows, MacOS, Linux</p>
+                </div>
+                <div>
+                    <h3 class="font-semibold text-lg mb-1">Programming languages:</h3>
+                    <p>PHP, C#, JavaScript, SQL, CSS, HTML, XML, Python</p>
+                </div>
+                <div>
+                    <h3 class="font-semibold text-lg mb-1">Databases:</h3>
+                    <p>MS SQL Server, MySQL, PostgreSQL</p>
+                </div>
+                <div>
+                    <h3 class="font-semibold text-lg mb-1">Data communication:</h3>
+                    <p>RESTful APIs, JSON</p>
+                </div>
+                <div>
+                    <h3 class="font-semibold text-lg mb-1">Clouds:</h3>
+                    <p>Azure, AWS, Google Cloud</p>
+                </div>
+                <div>
+                    <h3 class="font-semibold text-lg mb-1">Frameworks:</h3>
+                    <p>Codeigniter, Laravel, Bootstrap, Node.js</p>
+                </div>
+                <div class="col-span-1 sm:col-span-2 lg:col-span-3">
+                    <h3 class="font-semibold text-lg mb-1">Standard products and tools:</h3>
+                    <p>MS Visual Studio, Visual Studio Code, MS Azure, MS SQL Server management studio, SourceTree, xCode, Docker, Git</p>
+                </div>
+                <div>
+                    <h3 class="font-semibold text-lg mb-1">Methods:</h3>
+                    <p>Scrum</p>
+                </div>
+            </div>
+        </section>
 
-  <body>
+        <!-- Project History Section -->
+        <section class="mb-8">
+            <h2 class="text-2xl font-semibold text-gray-700 mb-3 border-b pb-2">Project History</h2>
 
-    <div class="container">
-      <div class="header clearfix">
-        <nav>
-          <ul class="nav nav-pills float-right">
-            <li class="nav-item">
-              <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
-            </li>
-          </ul>
-        </nav>
-        <h3 class="text-muted">Project name</h3>
-      </div>
+            <!-- Project 1 -->
+            <div class="mb-6 pb-4 border-b">
+                <h3 class="text-xl font-semibold text-indigo-700">01/2023-Present - PT Cakrawala Teknologi Indonesia</h3>
+                <p class="font-medium text-gray-600 mb-2">Role: Chief Technology Officer</p>
+                <ul class="list-disc list-inside text-gray-700 space-y-1 ml-4">
+                    <li>Developed and delivered training programs for 20+ IT staff, improving team efficiency by 15% within 6 months.</li>
+                    <li>Developed and implemented 3 key operational strategies that reduced quarterly operating costs by 10%.</li>
+                    <li>Conducted revenue analysis that identified 2 key growth segments, contributing to a 12% increase in revenue.</li>
+                    <li>Monitored and optimized SEO performance for web and Android applications, increasing key keyword rankings by 25% and organic traffic by 30%.</li>
+                    <li>Formulated and executed 5 critical technological strategies that 100% aligned business objectives with technical solutions.</li>
+                    <li>Led and managed IT operations, maintaining system uptime at 99.9% and supporting up to 50% user growth without performance degradation.</li>
+                </ul>
+                <p class="text-sm text-gray-500 mt-2">Technologies: GSA, MS SQL, Codeigniter, jQuery, CSS, Android</p>
+            </div>
 
-      <div class="jumbotron">
-        <h1 class="display-3">Jumbotron heading</h1>
-        <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-        <p><a class="btn btn-lg btn-success" href="#" role="button">Sign up today</a></p>
-      </div>
+            <!-- Project 2 -->
+            <div class="mb-6 pb-4 border-b">
+                <h3 class="text-xl font-semibold text-indigo-700">01/2022-01/2023 - PT DesaTech Nusantara</h3>
+                <p class="font-medium text-gray-600 mb-2">Role: Backend Developer</p>
+                <ul class="list-disc list-inside text-gray-700 space-y-1 ml-4">
+                    <li>Analyzed requirements for 10+ new applications and projects, delivering 95% accurate technical specifications.</li>
+                    <li>Maintained and optimized database logs and records, reducing database query times by 20% and improving data integrity to 99.8%.</li>
+                    <li>Developed and implemented backend solutions using CodeIgniter for 3 core applications, increasing data processing speed by 15%.</li>
+                    <li>Monitored website traffic and implemented security measures, reducing data security incidents by 90%.</li>
+                </ul>
+                <p class="text-sm text-gray-500 mt-2">Technologies: Laravel, Codeigniter, MySQL, jQuery, CSS, PHP</p>
+            </div>
 
-      <div class="row marketing">
-        <div class="col-lg-6">
-          <h4>Subheading</h4>
-          <p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.</p>
+            <!-- Project 3 -->
+            <div class="mb-6 pb-4 border-b">
+                <h3 class="text-xl font-semibold text-indigo-700">11/2017-01/2022 - PT Tio Mandiri Jaya</h3>
+                <p class="font-medium text-gray-600 mb-2">Role: SPV IT & IT Support</p>
+                <ul class="list-disc list-inside text-gray-700 space-y-1 ml-4">
+                    <li>Led the development and enhancement of 5 existing applications, improving user satisfaction by 10% based on internal surveys.</li>
+                    <li>Ensured application security through regular audits and troubleshooting, resolving 95% of critical issues within 4 hours.</li>
+                    <li>Monitored and evaluated 10+ vendor performances, ensuring 98% SLA adherence.</li>
+                    <li>Conducted SIT and UAT for 15+ ongoing projects, identifying and resolving 98% of bugs before launch.</li>
+                </ul>
+                <p class="text-sm text-gray-500 mt-2">Technologies: PHP, Excel, Codeigniter, Microsoft MVC</p>
+            </div>
 
-          <h4>Subheading</h4>
-          <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum.</p>
-
-          <h4>Subheading</h4>
-          <p>Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
-        </div>
-
-        <div class="col-lg-6">
-          <h4>Subheading</h4>
-          <p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.</p>
-
-          <h4>Subheading</h4>
-          <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum.</p>
-
-          <h4>Subheading</h4>
-          <p>Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
-        </div>
-      </div>
-
-      <footer class="footer">
-        <p>© Company 2017</p>
-      </footer>
-
-    </div> <!-- /container -->
-  
-
+            <!-- Project 4 -->
+            <div class="mb-6 pb-4">
+                <h3 class="text-xl font-semibold text-indigo-700">08/2017-11/2017 - PT Novatama Solusi Teknologi</h3>
+                <p class="font-medium text-gray-600 mb-2">Role: Intern Frontend Developer</p>
+                <ul class="list-disc list-inside text-gray-700 space-y-1 ml-4">
+                    <li>Designed website layouts for 5+ web pages.</li>
+                    <li>Created detailed mockups for 10+ projects, accelerating the engineering team's development process by 15%.</li>
+                    <li>Edited and optimized 100+ images and digital assets, reducing average file size by 30% without quality loss.</li>
+                </ul>
+                <p class="text-sm text-gray-500 mt-2">Technologies: HTML, CSS, React, Javascript, Bootstrap</p>
+            </div>
+        </section>
+    </div>
 </body>
 </html>
